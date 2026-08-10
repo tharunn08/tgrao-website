@@ -43,7 +43,7 @@ function ServiceCard({ category, index }) {
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 md:py-32 bg-white">
+    <section id="services" className="pt-8 pb-24 md:pt-10 md:pb-32 bg-white">
       <div className="section-container">
         <SectionHeading
           eyebrow="Our Services"
