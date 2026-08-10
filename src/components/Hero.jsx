@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { trustBadges } from "../data/content";
+import { ArrowRight } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -50,7 +49,7 @@ export default function Hero() {
             animate="visible"
             variants={fadeUp}
             custom={3}
-            className="flex flex-wrap gap-4 mb-14"
+            className="flex flex-wrap gap-4"
           >
             <Link
               to="/contact"
@@ -58,27 +57,6 @@ export default function Hero() {
             >
               Book Your Session <ArrowRight size={16} />
             </Link>
-            <Link
-              to="/services"
-              className="inline-flex items-center gap-2 rounded-full border border-borderSoft px-8 py-4 text-base font-medium text-textPrimary hover:border-secondary hover:text-secondary transition-colors"
-            >
-              Explore Services
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={4}
-            className="grid grid-cols-2 gap-x-6 gap-y-3"
-          >
-            {trustBadges.map((badge) => (
-              <div key={badge} className="flex items-center gap-2 text-base text-textPrimary/80">
-                <CheckCircle2 size={16} className="text-secondary shrink-0" />
-                {badge}
-              </div>
-            ))}
           </motion.div>
         </div>
 
