@@ -297,7 +297,7 @@ export const industries = [
   "Professionals",
   "Healthcare",
   "Real Estate",
-  "Many More",
+  "& Many More",
 ];
 
 export const faqs = [
