@@ -228,7 +228,7 @@ export default function Contact() {
                   <div>
                     <p className="text-sm text-textSecondary mb-0.5">Email</p>
                     <a href="mailto:tejas.raoandco@gmail.com" className="text-sm font-medium text-textPrimary hover:text-secondary">
-                      tejas.raoandco@gmail.com
+                      tejas@tgraoandco.in
                     </a>
                   </div>
                 </div>
