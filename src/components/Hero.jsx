@@ -32,7 +32,7 @@ export default function Hero() {
             custom={1}
             className="font-heading text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.15] text-textPrimary mb-6"
           >
-            Your Trusted Chartered Accountant for Tax, Audit &amp; Business Advisory
+            Your Trusted Partner For All Your Professional Needs
           </motion.h1>
           <motion.p
             initial="hidden"
