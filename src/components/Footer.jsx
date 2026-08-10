@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="font-heading text-xl text-primary">T G Rao and Co.</span>
             </div>
             <p className="text-base text-textSecondary leading-relaxed max-w-xs">
-              Chartered Accountancy practice offering taxation, audit, compliance, and business advisory services in Bengaluru.
+              Chartered Accountants offering taxation, audit, compliance, and business advisory services in Bengaluru.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Footer() {
             <h4 className="text-xs font-medium uppercase tracking-wide text-textSecondary mb-4">Contact</h4>
             <div className="space-y-3">
               <a href="mailto:tejas.raoandco@gmail.com" className="flex items-center gap-2 text-sm text-textPrimary/80 hover:text-secondary transition-colors">
-                <Mail size={14} /> tejas.raoandco@gmail.com
+                <Mail size={14} /> tejas@tgraoandco.in
               </a>
               <a href="tel:+918296260601" className="flex items-center gap-2 text-sm text-textPrimary/80 hover:text-secondary transition-colors">
                 <Phone size={14} /> +91 82962 60601
