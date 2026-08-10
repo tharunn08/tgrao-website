@@ -11,7 +11,7 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-borderSoft py-14">
+    <footer className="bg-footerBg border-t border-borderSoft py-14">
       <div className="section-container">
         <div className="grid sm:grid-cols-3 gap-10 mb-10">
           <div>
