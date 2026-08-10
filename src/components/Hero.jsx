@@ -13,7 +13,7 @@ const fadeUp = {
 
 export default function Hero() {
   return (
-    <section id="home" className="relative pt-20 pb-24 md:pt-24 md:pb-32 overflow-hidden">
+    <section id="home" className="relative pt-20 pb-10 md:pt-24 md:pb-14 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-sectionBg to-white" />
       <div className="section-container grid md:grid-cols-2 gap-16 items-center">
         <div>
@@ -32,7 +32,7 @@ export default function Hero() {
             custom={1}
             className="font-heading text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.15] text-textPrimary mb-6"
           >
-            Your Trusted Partner For All Your Professional Needs
+            Your Trusted Chartered Accountant for Tax, Audit &amp; Business Advisory
           </motion.h1>
           <motion.p
             initial="hidden"
