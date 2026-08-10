@@ -4,7 +4,7 @@ import { MessageCircle, Phone, Mail, MapPin, X, Plus } from "lucide-react";
 
 const WHATSAPP_NUMBER = "918296260601";
 const PHONE_NUMBER = "+918296260601";
-const EMAIL = "tejas.raoandco@gmail.com";
+const EMAIL = "tejas@tgraoandco.in";
 const MAPS_LINK = "https://maps.app.goo.gl/5EC82xGBTRnEDxms9?g_st=ac";
 
 const actions = [
