@@ -41,7 +41,7 @@ export default function About() {
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           <Reveal className="lg:col-span-3 space-y-6">
             <p className="text-textSecondary leading-relaxed">
-              T G Rao and Co. is a Bengaluru-based Chartered Accountancy practice founded and led by CA Tejas G Rao.
+              T G Rao and Co. is a Bengaluru-based Chartered Accountants founded and led by CA Tejas G Rao.
               The practice serves a diverse clientele of businesses, startups, entrepreneurs, and individuals across
               Bengaluru, providing services spanning direct taxation, indirect taxation, audit and assurance, and
               end-to-end business setup and regulatory compliance.
