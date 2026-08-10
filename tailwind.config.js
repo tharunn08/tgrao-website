@@ -8,6 +8,7 @@ export default {
         secondary: "#2F6FAE",
         accent: "#4F8CC9",
         sectionBg: "#F8FAFC",
+        footerBg: "#F1F3F6",
         borderSoft: "#E5E7EB",
         textPrimary: "#111827",
         textSecondary: "#4B5563",
