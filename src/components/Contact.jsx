@@ -14,7 +14,7 @@ const services = [
   "Other",
 ];
 
-const CA_EMAIL = "tejas.raoandco@gmail.com";
+const CA_EMAIL = "tejas@tgraoandco.in";
 const CA_WHATSAPP = "918296260601";
 
 const initialForm = {
